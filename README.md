@@ -1,2 +1,2 @@
 # new-technology
-Abstract of New Technology
+new-technology test repository
