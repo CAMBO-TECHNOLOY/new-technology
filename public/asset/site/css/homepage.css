@@ -1,0 +1,202 @@
+@font-face{
+    font-family:angkor;
+   // src:url(../fonts/Angkor.ttf);
+}
+
+
+	body{
+		padding:0;
+		margin:0;
+		background:url(../images/project_papper_@2X.png);
+		margin-bottom:10px;
+	}
+	#wraper{
+		background:#FFF;
+		width:1100px;
+		border:1px solid #DDDDDD;
+		margin:auto;
+		-moz-box-shadow:0 0 2px 2px #DDDDDD;
+    	-webkit-box-shadow:0 0 2px 2px #DDDDDD;
+    	box-shadow:0 0 10px 2px #DDDDDD;
+    	-o-box-shadow:0 0 2px 2px #DDDDDD;
+		border-radius:0 0 5px 5px;
+	}
+	#banner,#div_menu,#main-content,#footer{
+		width:100%;
+		border-style:none none solid none;
+		border-width:1px;
+		border-color:#DDDDDD;
+		box-sizing:border-box;
+	}
+	#banner{
+        //background: url("images/banner.jpg");
+		height:100px;
+		border-top:none;
+	}
+	#div_menu{
+		height:50px;
+		padding:5px;
+		background:url(../images/back_menu.jpg);
+		background-size:auto 50px;
+	}
+	#main-content{
+		height:auto;
+		border:1px solid #DDDDDD;
+		min-height:400px;
+		border-top:none;
+	}
+
+	#footer{
+		height:50px;
+		border-bottom:none;
+		background:url(../images/back_menu.jpg);
+		background-size:auto 50px;
+	}
+	
+	
+	/*
+ * Menu Effects: A collection of CSS3 menu effects (degrades gracefully in IE8).
+ *
+ * Don't hesitate to create new effects and remove the ones you don't need.
+ *
+ * latest version and complete README available on Github:
+ * https://github.com/louisremi/menu-effects
+ *
+ * Copyright 2012 @louis_remi
+ * Licensed under the MIT license.
+ *
+ * Are you using this in a paid work?
+ * Send me music http://www.amazon.co.uk/wishlist/HNTU0468LQON
+ *
+ */
+ 
+ /* menu style */
+ 	ul, li{
+		padding:	0;
+		margin:	0;
+	}
+	.menu li{
+		float:	left;
+		list-style:	none;
+		text-align:center;
+	}
+	.menu ul li{
+		float:	none;
+	}
+	.menu li a{
+		text-decoration:none;
+		width:	100px;
+		height:	30px;
+		line-height:30px;
+		display:	block;
+		color:	white;
+		//padding:8px 5px 8px 5px;
+		
+		padding:5px 5px;
+		border:1px solid #8ec1da;
+		border-radius:4px;
+		-webkit-box-shadow:
+		inset 0 1px 3px #fff,
+		inset 0 -15px #cbe6f2,
+		0 0 3px #8ec1da;
+	-moz-box-shadow:
+		inset 0 1px 3px #fff,
+		inset 0 -15px #cbe6f2,
+		0 0 3px #8ec1da;
+	box-shadow:
+		inset 0 1px 3px #fff,
+		inset 0 -15px #cbe6f2,
+		0 0 3px #8ec1da;
+	background-color:#ddeef6;
+	color:#3985a8;
+	text-shadow:0 1px #fff;
+	}
+
+	.menu li a:hover{
+		opacity:0.6;
+	}
+	.menu ul{
+		display:none;
+	}
+	.menu li:hover ul{
+		display:	block;
+	}
+	.menu .direction:hover ul{
+		display:block;
+	}
+	
+	.menu ul{
+		    border:1px solid #D2D2D2;
+    box-shadow: 0 1px 4px #ccc;
+    border-radius:3px;
+		width:900px;
+		position:absolute;
+		background:#FFF;
+		
+		margin:18px 5px 18px 5px;
+	}
+	.menu ul ul{
+		width:120px;
+		position:relative;
+		background:none;
+		border:1px solid #FFF;
+		margin:0;
+		padding-bottom:8px;
+	}
+	.menu ul li{
+		float:left;
+		margin:5px 5px 15px 5px;
+	}
+	.menu ul ul li{
+		float:none;
+		margin:0;
+	}
+		.menu ul ul li a{
+		width:110px;
+		text-decoration:none;
+		box-shadow:none;
+		background:#FFF;
+		color:#00F;
+		border-radius:0;
+		border:none;
+		margin:auto;
+		    transition-property:background-color,border-radius,color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear, ease-in, linear; 
+
+	}
+	.menu ul li a{
+		padding:1px;
+		box-shadow:none;
+		width:120px;
+
+		
+	background:#F4F4F4;
+	}
+	.menu .direction:before{
+    /*content:"";
+    width:0;
+    height:0;
+    border-top:10px solid transparent;
+    border-bottom:10px solid transparent;
+    border-right:20px solid rgba(204,204,204,0.8);
+	*/
+	
+	//border:1px solid red;
+    position:absolute;
+    left:0px;
+    top:-23px;
+    content:url(../images/direction.png);
+	
+}
+.menu ul li a:hover{
+	background:#FCFCFC;
+	opacity:1;
+}
+.menu ul ul li a:hover{
+	background:red;
+	border-radius:3px;
+	color:#FFF;
+}
+
+/*end menu style*/
